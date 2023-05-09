@@ -83,7 +83,7 @@ class Game
   def player_guess(player_array, comp_array, player)
     count = 0
     name = player.name
-    until count == 8
+    until count == 12
       board = Board.new
       player.guess(player_array)
       guess = player_array.clone
